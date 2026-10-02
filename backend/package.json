@@ -1,0 +1,19 @@
+{
+  "name": "backend-chat",
+  "version": "1.0.0",
+  "description": "Backend del chat",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "socket.io": "^4.8.3"
+  }
+}
